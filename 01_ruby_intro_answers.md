@@ -2,18 +2,20 @@
 
 ## Check your ruby version
 Your ruby version: 
+ruby -v
+ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-darwin16]
 
 ## Floats and integers 
 1. 3.0 / 2
-    1. Expected (integer or float):      
+    1. Expected (integer or float):  float    
     2. Actual (integer or float):
     3. Answer: 
 2. 3 / 2.0
-    1. Expected (integer or float):      
+    1. Expected (integer or float):   float   
     2. Actual (integer or float):
     3. Answer: 
 3. 4 ** 2.0
-    1. Expected (integer or float):      
+    1. Expected (integer or float):  float
     2. Actual (integer or float):
     3. Answer: 
 4. 4.1 % 2
