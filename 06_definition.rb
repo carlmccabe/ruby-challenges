@@ -16,4 +16,21 @@
 
 class Definition
 # Your code here
+    def initialize
+        @dictionary = {}
+    end
+    # 1. add_word(word, definition), should store a word and definition
+    def add_word(word, definition)
+        @dictionary[word] = definition
+    end
+    # 2. lookup(word), should return a definition
+    def lookup(word)
+        return @dictionary[word]
+    end
+
+    # 3. total_words, should return the total number of words
+    def total_words
+        return @dictionary.keys.count
+    end
+
 end
