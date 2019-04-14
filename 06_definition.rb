@@ -30,7 +30,7 @@ class Definition
 
     # 3. total_words, should return the total number of words
     def total_words
-        return @dictionary.keys.count
+        return @dictionary.length
     end
 
 end
